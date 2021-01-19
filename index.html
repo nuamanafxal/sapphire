@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>TheSapphire</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+  
+  <link href="assets/w3.css" rel="stylesheet" type="text/css">
+   <link href="assets/custom.css" rel="stylesheet" type="text/css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <style>
+.imgwidth{max-width:100%;height:300px;}
+
+.w3-text-pinkk{color:#db4dff;}
+
+.w3-col img:hover{opacity: 0.6; transition: 0.3s;cursor:pointer;}
+.img-cr-width{width:100%;max-height:300px;}
+
+.bgimg-1 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('images/about.jpg');
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url('images/banner.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.skyblue{
+background:#d3e9ff;
+}
+
+
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar  w3-white navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color:#002E85;">
+        <span class="icon-bar w3-white"></span>
+        <span class="icon-bar w3-white"></span>
+        <span class="icon-bar w3-white"></span>                        
+      </button>
+    <img src="images/logo.jpg" width="230" height="90" class=" w3-hide-small w3-padding w3-hide-medium">
+   <img src="images/logo.jpg" width="140" height="55" class=" w3-hide-large w3-padding ">
+   
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right w3-margin-right paddingtop">
+	  <li><a href="#about">HOME</a></li>
+        <li><a href="#about">ABOUT US</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#portfolio">CONTACT US</a></li>
+        
+        
+		<li><a href=""><button class="btn  iconcolorbg w3-text-white " id="btnstyle">GET STARTED</button></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:5%;">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner bgimg-2" role="listbox">
+	
+      <div class="item active">
+	  <div class="container">
+        <div class="w3-display-container">
+		<div style="width:100%;min-height:450px;" class="w3-content">
+		  <div class="left " id="banner">
+	      <div class="row w3-grayscale-min">
+             <div class="w3-col l6 m6 s12" >
+			 <div class="w3-center top-padding" >
+                <h2 class="w3-text-white w3-hide-small w3-hide-medium">WHY YOU SHOUD CHOOSE A<br><br><span class="w3-text-pinkk">PROFESSIONAL</span><br><br>WEB DEVELOPMENT COMPANY</h2><br><br>
+				<h4 class="w3-text-white w3-hide-large  ">WHY YOU SHOUD CHOOSE A<br><br><span class="w3-text-pinkk">PROFESSIONAL</span><br><br>WEB DEVELOPMENT COMPANY</h4><br>
+				
+				<button class="btn  iconcolorbg w3-text-white w3-hide-small" id="btnstyle">GET STARTED</button>
+                  </div>
+              </div>
+            <div class="w3-col l6 m6 s12">
+                <img src="images/bannerimg.png" class="imgwidthbanner" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+				<br><br><br>
+     <div class="w3-container w3-center ">
+	 <button class="btn  iconcolorbg w3-text-white w3-hide-medium w3-hide-large" id="btnstyle">GET STARTED</button>
+     </div>
+            </div>
+
+	
+               </div>
+            </div>
+         </div>  		
+      </div>
+    </div>
+</div>
+      <div class="item">
+	    <div class="container">
+        <div class="w3-display-container">
+		<div style="width:100%;min-height:450px;" class="w3-content">
+		  <div class="left " id="banner">
+	      <div class="row w3-grayscale-min">
+             <div class="w3-col  l6 m6 s12" >
+			 <div class="w3-center top-padding" >
+                <h2 class="w3-text-white w3-hide-small w3-hide-medium">WHY YOU SHOUD CHOOSE A<br><br><span class="w3-text-pinkk">PROFESSIONAL</span><br><br>WEB DEVELOPMENT COMPANY</h2><br><br>
+				<h4 class="w3-text-white w3-hide-large  ">WHY YOU SHOUD CHOOSE A<br><br><span class="w3-text-pinkk">PROFESSIONAL</span><br><br>WEB DEVELOPMENT COMPANY</h4><br>
+				
+				<button class="btn  iconcolorbg w3-text-white w3-hide-small" id="btnstyle">GET STARTED</button>
+                  </div>
+              </div>
+            <div class="w3-col  l6 m6 s12">
+                <img src="images/bannerimg.png" class="imgwidthbanner" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+     <br><br><br>
+     <div class="w3-container w3-center ">
+	 <button class="btn  iconcolorbg w3-text-white w3-hide-medium w3-hide-large" id="btnstyle">GET STARTED</button>
+     </div>
+            </div>
+
+	
+               </div>
+            </div>
+         </div>  		
+      </div>
+    </div>
+ </div>
+    
+      <div class="item">
+	  <div class="container">
+        <div class="w3-display-container">
+		<div style="width:100%;min-height:450px;" class="w3-content">
+		  <div class="left " id="banner">
+	      <div class="row w3-grayscale-min">
+             <div class="w3-col  l6 m6 s12 " >
+			 <div class="w3-center top-padding" >
+                <h2 class="w3-text-white w3-hide-small w3-hide-medium">WHY YOU SHOUD CHOOSE A<br><br><span class="w3-text-pinkk">PROFESSIONAL</span><br><br>WEB DEVELOPMENT COMPANY</h2><br><br>
+				<h4 class="w3-text-white w3-hide-large  ">WHY YOU SHOUD CHOOSE A<br><br><span class="w3-text-pinkk">PROFESSIONAL</span><br><br>WEB DEVELOPMENT COMPANY</h4><br>
+				
+				<button class="btn  iconcolorbg w3-text-white w3-hide-small" id="btnstyle">GET STARTED</button>
+                  </div>
+              </div>
+            <div class="w3-col  l6 m6 s12 ">
+                <img src="images/bannerimg.png" class="imgwidthbanner" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+     <br><br><br>
+     <div class="w3-container w3-center ">
+	 <button class="btn  iconcolorbg w3-text-white w3-hide-medium w3-hide-large" id="btnstyle">GET STARTED</button>
+     </div>       
+			</div>
+
+	
+               </div>
+            </div>
+         </div>  		
+      </div>
+    </div>
+</div>
+    <!-- Left and right controls -->
+  
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Container (The Band Section) -->
+<div class="w3-container bgimg-1">
+  <div id="band" class="container text-center" >
+    <div class="w3-content" style="max-width:1000px;">
+  <h1>ABOUT US</h1>
+  <br>
+  <p class="p w3-hide-small">SAPPHIRE TECHNOLOGIES, a solutions-focused company, was established in 2018. The company is registered in Pakistan and is 100% EOU (Export Oriented Unit). We provide
+complete business solutions, which enables businesses to leverage leading edge technology to gain sustainable competitive advantages in today’s marketplace. We are
+known for our talent, passion, work ethic and building ongoing long term relationships and commitment through support and maintenance.  SAPPHIRE takes
+pride in having a trustworthy and sturdy team of more than 20 members. Since our founding, we have worked with the best in the industry. We pride
+ourselves on the skills and professionalism of our team members and invest time and effort in training them to further enhance their skills.
+At SAPPHIRE TECHNOLOGIES, we value your time as much as our own. Our turn-around time is the
+most minimal and we assure reply within 1 business day.</p>
+	 
+	 
+	 <p class="p w3-hide-large w3-hide-medium w3-small">SAPPHIRE TECHNOLOGIES, a solutions-focused company, was established in 2018. The company is registered in Pakistan and is 100% EOU (Export Oriented Unit). We provide
+complete business solutions, which enables businesses to leverage leading edge technology to gain sustainable competitive advantages in today’s marketplace. We are
+known for our talent, passion, work ethic and building ongoing long term relationships and commitment through support and maintenance.  SAPPHIRE takes
+pride in having a trustworthy and sturdy team of more than 20 members. Since our founding, we have worked with the best in the industry. We pride
+ourselves on the skills and professionalism of our team members and invest time and effort in training them to further enhance their skills.
+At SAPPHIRE TECHNOLOGIES, we value your time as much as our own. Our turn-around time is the
+most minimal and we assure reply within 1 business day.</p>
+	</div>
+  <br><br>
+   <div class="col-sm-6 col-sm-offset-6">
+   
+    <div class="row">
+	
+	     <div class="col-md-4 col-sm-4">
+    <div class="w3-card  w3-circle circle-padding skyblue circle-padding" >
+      <a href="images/Technology.png">
+        <img src="images/Technology.png" alt="Lights" style="max-width:100%">
+		 </div><br>
+        <div class="caption text-center ">
+          <h5 ><b>Perfect<br>
+		  Software solution<b></h5>
+        </div>
+      </a>
+   
+   </div>
+               <div class="col-md-4 col-sm-4">
+    <div class="w3-card  w3-circle circle-padding skyblue" >
+      <a href="images/Technology.png">
+        <img src="images/Technology.png" alt="Lights" style="max-width:100%">
+		 </div><br>
+        <div class="caption text-center ">
+          <h5 ><b>Software <br>
+		  Technology Consulting<b></h5>
+        </div>
+      </a>
+   
+   </div>
+   
+            <div class="col-md-4 col-sm-4">
+    <div class="w3-card  w3-circle circle-padding skyblue" >
+      <a href="images/Technology.png">
+        <img src="images/Technology.png" alt="Lights" style="max-width:100%">
+		 </div><br>
+        <div class="caption text-center">
+         <h5 ><b>E-Commerce<br>
+		   solution<b></h5>
+        </div>
+      </a>
+   
+   </div>
+   
+  
+  
+   </div>
+  </div>
+</div>
+<!-- Container (TOUR Section) -->
+<div id="tour" class="bg-1 ">
+ 
+  </div>
+</div> <!--en container-->
+
+
+<br>
+
+<!--services--section-->
+<div class="w3-main w3-content w3-padding" style="max-width:1500px;margin-top:33px">
+  
+  <h1 class="text-center">SERVICES</h1>
+ <br><br><br>
+  <div class="row w3-margin-left w3-margin-right">
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 s12">
+	
+      <div class="thumbnail w3-padding-32">
+        <a href="images/graphic.jpg" target="_blank">
+          <img src="images/graphic.jpg" alt="Lights" style="max-width:100%;height:180px">
+         <div class="caption text-center w3-margin-top">
+            <h4 class="text-ceter"><b>Graphic Design</b></h4>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 s12">
+      <div class="thumbnail w3-padding-32">
+        <a href="images/web.jpg" target="_blank">
+          <img src="images/web.jpg" alt="Nature" style="max-width:100%;height:180px">
+          <div class="caption text-center w3-margin-top">
+            <h4 class="text-ceter"><b>Web Development</b></h4>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 s12">
+      <div class="thumbnail w3-padding-32">
+        <a href="/w3images/fjords.jpg" target="_blank">
+          <img src="images/market.jpg" alt="Nature" style="max-width:100%;height:180px">
+          <div class="caption text-center w3-margin-top">
+             <h4 class=""><b>Social Media Marketing</b></h4>
+          </div>
+        </a>
+      </div>
+    </div>
+	 <div class="w3-col l3 m6 s12">
+      <div class="thumbnail w3-padding-32">
+        <a href="/w3images/fjords.jpg" target="_blank">
+         <img src="images/mobile.jpg" alt="Nature" style="max-width:100%;height:180px">
+          <div class="caption text-center w3-margin-top">
+            <h4 class="text-ceter"><b>Mobile App Development</b></h4>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+  
+  <!-- Modal -->
+  
+<!-- Container (Contact Section) -->
+<div id="contact" class="container " style="padding:40px 0px 0px 0px;">
+  
+  <div class="w3-container w3-center w3-padding-16"><h1>PORTFOLIO</h1></div>
+  <div class="col-sm-9 col-sm-offset-2 w3-opacity-min">
+  <div class="w3-bar">
+  <button class="w3-bar-item w3-button" onclick="openCity('all')">All</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('logo')">Logo Design</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('wdes')">Web Design</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('webdev')">Web Development</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('appdes')">App Design</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('appdev')">App Development</button>
+  </div>
+  
+  
+</div></div>
+
+<div id="all" class="container-fluid city  w3-animate-zoom">
+  <div class="w3-main w3-content" style="max-width:1600px;margin-top:33px">
+  
+  <!-- Photo grid -->
+  <div class="w3-row w3-grayscale-min">
+    <div class="w3-col l3">
+	  <img src="images/logo-11.jpg" class="imgwidth"  onclick="document.getElementById('img1').style.display='block'">  
+	  <!-- Menu Modal -->
+
+   </div><!--co l3-->
+    
+	 <div class="w3-col l3">
+      <img src="images/logo-13.jpg" class="imgwidth"  onclick="document.getElementById('img2').style.display='block'">
+      
+   </div>
+    
+   <div class="w3-col l3">
+      <img src="images/logo-14.jpg" class="imgwidth"  onclick="document.getElementById('img3').style.display='block'">
+      
+    </div>
+    
+	 <div class="w3-col l3">
+      <img src="images/logo-9.jpg" class="imgwidth"  onclick="document.getElementById('img4').style.display='block'">
+      
+    </div>
+   </div> 
+	
+	<div class="w3-row w3-grayscale-min">
+    <div class="w3-col l3">
+      <img src="images/logo-15.jpg" class="imgwidth" onclick="document.getElementById('img5').style.display='block'">
+     
+    </div>
+
+    <div class="w3-col l3">
+      <img src="images/logo-8.jpg" class="imgwidth" onclick="document.getElementById('img6').style.display='block'">
+     
+    </div>
+	
+	 <div class="w3-col l3">
+      <img src="images/logo-7.jpg" class="imgwidth" onclick="document.getElementById('img7').style.display='block'">
+     
+    </div>
+	
+	 <div class="w3-col l3">
+      <img src="images/logo-6.jpg" class="imgwidth" onclick="document.getElementById('img8').style.display='block'">
+     
+    </div>
+  </div>
+</div>
+</div>
+<div id="logo" class="container-fluid city w3-animate-zoom" style="display:none">
+  
+  <div class="w3-main w3-content" style="max-width:1600px;margin-top:33px">
+  
+  <!-- Photo grid -->
+  <div class="w3-row w3-grayscale-min">
+    <div class="w3-col l3">
+	  <img src="images/logo-11.jpg" class="imgwidth" onclick="document.getElementById('img1').style.display='block'">  
+   </div>
+    
+	 <div class="w3-col l3">
+      <img src="images/logo-13.jpg" class="imgwidth" onclick="document.getElementById('img2').style.display='block'">
+      
+   </div>
+    
+   <div class="w3-col l3">
+      <img src="images/logo-14.jpg" class="imgwidth" onclick="document.getElementById('img3').style.display='block'">
+      
+    </div>
+    
+	 <div class="w3-col l3">
+      <img src="images/logo-9.jpg" class="imgwidth" onclick="document.getElementById('img4').style.display='block'">
+      
+    </div>
+   </div> 
+  
+  </div>
+</div>
+
+<div id="wdes" class="container-fluid city w3-animate-zoom" style="display:none">
+  
+  <div class="w3-main w3-content" style="max-width:1600px;margin-top:33px">
+  
+  <!-- Photo grid -->
+  <div class="w3-row w3-grayscale-min">
+    <div class="w3-col l3">
+	  <img src="images/logo-11.jpg" class="imgwidth" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">  
+   </div>
+    
+	 <div class="w3-col l3">
+      <img src="images/logo-13.jpg" class="imgwidth" onclick="onClick(this)" alt="Canoeing again">
+      
+   </div>
+    
+   <div class="w3-col l3">
+      <img src="images/logo-14.jpg" class="imgwidth" onclick="onClick(this)" alt="A girl, and a train passing">
+      
+    </div>
+    
+	 <div class="w3-col l3">
+      <img src="images/logo-9.jpg" class="imgwidth" onclick="onClick(this)" alt="A girl, and a train passing">
+      
+    </div>
+   </div> 
+  
+  </div>
+</div>
+<div id="webdev" class="w3-container city" style="display:none">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="appdes" class="w3-container city" style="display:none">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="appdev" class="w3-container city" style="display:none">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+<!--models for images-->
+
+
+
+
+
+
+<!--for first image-->
+<div id="img1" class="w3-modal ">
+  <div class="w3-modal-content w3-animate-zoom">
+   <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('img1').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Logo</h1>
+    </div>
+  <div class="w3-container w3-padding-64">
+   <img src="images/logo-11.jpg" style="max-width:100%;">
+    </div>
+  </div>
+</div>
+
+
+<!--for second image-->
+<div id="img2" class="w3-modal ">
+  <div class="w3-modal-content w3-animate-zoom">
+   <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('img2').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Logo</h1>
+    </div>
+  <div class="w3-container w3-padding-64">
+   <img src="images/logo-13.jpg" style="max-width:100%;">
+    </div>
+  </div>
+</div>
+
+
+<!--for third image-->
+<div id="img3" class="w3-modal ">
+  <div class="w3-modal-content w3-animate-zoom">
+   <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('img3').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Logo</h1>
+    </div>
+  <div class="w3-container w3-padding-64">
+   <img src="images/logo-14.jpg" style="max-width:100%;">
+    </div>
+  </div>
+</div>
+
+
+<!--for fourth image-->
+<div id="img4" class="w3-modal ">
+  <div class="w3-modal-content w3-animate-zoom">
+   <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('img4').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Logo</h1>
+    </div>
+  <div class="w3-container w3-padding-64">
+   <img src="images/logo-9.jpg" style="max-width:100%;">
+    </div>
+  </div>
+</div>
+
+
+
+<!--for fifth image-->
+<div id="img5" class="w3-modal ">
+  <div class="w3-modal-content w3-animate-zoom">
+   <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('img5').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Logo</h1>
+    </div>
+  <div class="w3-container w3-padding-64">
+   <img src="images/logo-15.jpg" style="max-width:100%;">
+    </div>
+  </div>
+</div>
+
+
+<!--for sixth image-->
+<div id="img6" class="w3-modal ">
+  <div class="w3-modal-content w3-animate-zoom">
+   <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('img6').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Logo</h1>
+    </div>
+  <div class="w3-container w3-padding-64">
+   <img src="images/logo-8.jpg" style="max-width:100%;">
+    </div>
+  </div>
+</div>
+
+
+<!--for seventh image-->
+<div id="img7" class="w3-modal ">
+  <div class="w3-modal-content w3-animate-zoom">
+   <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('img7').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Logo</h1>
+    </div>
+  <div class="w3-container w3-padding-64">
+   <img src="images/logo-7.jpg" style="max-width:100%;">
+    </div>
+  </div>
+</div>
+
+<!--for eigth image-->
+<div id="img8" class="w3-modal ">
+  <div class="w3-modal-content w3-animate-zoom">
+   <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('img8').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Logo</h1>
+    </div>
+  <div class="w3-container w3-padding-64">
+   <img src="images/logo-6.jpg" style="max-width:100%;">
+    </div>
+  </div>
+</div>
+
+
+
+<br>
+<div id="contact" class="container">
+   <h2 class=" text-center iconcolor">GET IN TOUCH WITH US</h2><br>
+
+  <div class="row">
+    <div class="col-md-6"><br><br>
+      <h2 class=" iconcolor">Contact Info</h2><br>
+	  <p class="w3-large"><span class="glyphicon glyphicon-phone  iconcolor w3-xlarge"></span> Phone:+92320 8435673</p><br>
+	  
+	   <p class="w3-large"><span class="glyphicon glyphicon-envelope iconcolor  w3-xlarge"></span> Email: sapphiretechnologies1@gmail.com</p><br>
+	  
+      <p class="w3-large"><span class="glyphicon glyphicon-map-marker iconcolor w3-xlarge"></span> 41-1-C1 College road Town Ship, Lahore</p><br>
+      
+     
+    </div>
+    <div class="col-md-6">
+	<h2 class="iconcolor">Contact Us</h2>
+ 
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-12 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+		 <div class="col-sm-12 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Phone" type="num" required>
+        </div>
+		    </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+		<br>
+		<button class="btn pull-left iconcolorbg w3-text-white" type="submit">Send</button>
+      </div>
+     
+      <br>
+   
+    </div>
+  </div>
+  </div>
+
+
+
+<!-- Footer -->
+<footer class="text-center" id="footer">
+<a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up w3-text-white"></span>
+  </a>
+<div class="container">
+<div class="col-sm-8 col-sm-offset-2 w3-center">
+ <ul>
+  <li><a class="active" href="#home">HOME</a></li>
+  <li><a href="#news">ABOUT US</a></li>
+  <li><a href="#contact">OUR SERVICES</a></li>
+  <li><a href="#about">OUR PORTFOLIO</a></li>
+  <li><a href="#about">CONTACT US</a></li>
+  
+</ul>
+
+</div>
+ <p> <a href="" data-toggle="tooltip" title="Visit w3schools">www.thesapphiretechnologies.com</a></p>
+</div>
+ 
+  
+</footer>
+
+
+
+
+</script>
+</body>
+</html>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+<script>
+function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(cityName).style.display = "block";  
+}
+</script>
